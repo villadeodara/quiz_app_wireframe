@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.board {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+.img_container {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+button {
+  padding: 5px;
+  font-size: 20px;
+  background-color: bisque;
+}
+
+.score > p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.final_score {
+  font-size: 30px;
+}
+

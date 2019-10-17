@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz App</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="board">
+      <h1> Europe Travel Quiz </h1>
+        <p> How well do you know about Europe? let's find out...</p>
+        <button type="submit">Start</button>
+    </div>
+
+  <br>
+  <br>
+    <div class="board">
+      <h1>Europe Travel Quiz </h1>
+      <div class="img_container">
+        <img src="https://images.pexels.com/photos/1062037/pexels-photo-1062037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"> 
+      </div>
+      <h2>Designed by Catalan architect Antoni Gaudí, this Basilica is still unfinished after a century:</h2>
+      <form>
+        <input type="radio" name="option" value="Basilica of Our Lady of Candelaria">Basilica of Our Lady of Candelaria<br>
+        <input type="radio" name="option" value="Sagrada Familia">Sagrada Familia<br>
+        <input type="radio" name="option" value="Basilica de la Macarena">Basilica de la Macarena<br>
+        <input type="radio" name="option" value="Basilica of Saints Justus and Pastor">Basilica of Saints Justus and Pastor<br>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="score">
+      <p> Question: 1/6 Score: 0/6 </p>
+    </div>
+    </div>  
+
+
+    <br>
+    <br>
+    <div class="board">
+      <h1>Europe Travel Quiz</h1>
+      <p> Correct! </p>
+      <button type="submit">Next</button>
+    </div>
+
+    <br>
+    <br>
+    <div class="board">
+      <h1>Europe Travel Quiz</h1>
+      <p> Wrong! The answer is: Sagrada Familia </p>
+      <button type="submit">Next</button>
+    </div> 
+
+    <br>
+    <br>
+    <div class="board">
+      <h1>Europe Travel Quiz</h1>
+      <p> You've scored: </p>
+      <p class="final_score"> 90% <p>
+      <button type="submit">Restart</button>
+    </div> 
+
+    <script src="index.js"></script>
+
+
+  </body>
+</html>
